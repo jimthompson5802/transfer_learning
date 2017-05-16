@@ -1,6 +1,6 @@
 # Transfer Learning
 
-This repo contains examples of transfer learning using various Python Deep Learning packages.  
+This repo contains examples of [transfer learning](http://sebastianruder.com/transfer-learning/) using various Python Deep Learning packages.  
 
 |Notebook|DL Packages|Description|
 |--------|-----------|-----------|
