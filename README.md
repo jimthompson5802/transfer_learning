@@ -4,5 +4,5 @@ This repo contains examples of [transfer learning](http://sebastianruder.com/tra
 
 |Notebook|DL Packages|Description|
 |--------|-----------|-----------|
-|`transfer_learning_example`|Keras and Theano|A CNN model is trained on the even digits of the MNIST data set.  After training the feature detection layers of the CNN model are frozen and the model's classification layers are updated to recognize odd digits.|
+|[transfer_learning_example](https://github.com/jimthompson5802/transfer_learning/blob/master/transfer_learning_example.ipynb)|Keras and Theano|A CNN model is trained on the even digits of the MNIST data set.  After training the feature detection layers of the CNN model are frozen and the model's classification layers are updated to recognize odd digits.|
 
