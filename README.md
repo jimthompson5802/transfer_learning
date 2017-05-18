@@ -8,5 +8,5 @@ CNN model are frozen and the model's classification layers are updated to recogn
 |Notebook|DL Packages|
 |--------|-----------|
 |[transfer_learning_example](https://github.com/jimthompson5802/transfer_learning/blob/master/transfer_learning_example.ipynb)|Keras and Theano|
-|transfer_learning_example_tf_keras| TensorFlow with Keras Layer API|
+|[transfer_learning_example_tf_keras](https://github.com/jimthompson5802/transfer_learning/blob/master/transfer_learning_example_tf_keras.ipynb)| TensorFlow with Keras Layer API|
 
