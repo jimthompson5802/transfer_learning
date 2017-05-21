@@ -1,3 +1,4 @@
 .ipynb_checkpoints
 even_digit_model*
 checkpoint
+*.gz
