@@ -3,3 +3,4 @@ even_digit_model*
 checkpoint
 *.gz
 vgg16
+cats_dogs/models
