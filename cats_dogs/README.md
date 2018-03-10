@@ -9,8 +9,8 @@ All notebooks were run on an AWS p2.xlarge instance, which provides an Nvidia K8
 |Notebook|Deep Learning Software Stack|
 |--------|-----------|
 |[prepare_train_validation_test_data.ipynb](https://github.com/jimthompson5802/transfer_learning/blob/master/cats_dogs/prepare_train_validation_test_data.ipynb)|Creates training, validation and test data sets.|
-|[vgg16_small_transfer_learning.ipynb](https://github.com/jimthompson5802/transfer_learning/blob/master/cats_dogs/vgg16_small_transfer_learning.ipynb)|Keras front-end api with Tensorflow backend.  Transfer learning using pre-trained VGG16 imagenet model.  Illustrates both feature extraction and fine-tuning using only 4,000 images for training. |
-|[vgg16_full_transfer_learning.ipynb](https://github.com/jimthompson5802/transfer_learning/blob/master/cats_dogs/vgg16_full_transfer_learning.ipynb)|Keras front-end api with Tensorflow backend.  Transfer learning using pre-trained VGG16 imagenet model.  Illustrates both feature extraction and fine-tuning using 21,000 images for training. |
+|[vgg16_small_transfer_learning.ipynb](https://github.com/jimthompson5802/transfer_learning/blob/master/cats_dogs/vgg16_small_transfer_learning.ipynb)|Keras front-end api with Tensorflow backend.  Transfer learning using pre-trained VGG16 imagenet model.  Illustrates both feature extraction and fine-tuning using only 4,000 images for training. Achieved 0.9665 accuracy on out-of-sample test set.|
+|[vgg16_full_transfer_learning.ipynb](https://github.com/jimthompson5802/transfer_learning/blob/master/cats_dogs/vgg16_full_transfer_learning.ipynb)|Keras front-end api with Tensorflow backend.  Transfer learning using pre-trained VGG16 imagenet model.  Illustrates both feature extraction and fine-tuning using 21,000 images for training. Achieve 0.9765 accuracy on out-of-sample test set.|
 
 
 
