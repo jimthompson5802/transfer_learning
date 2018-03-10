@@ -4,7 +4,7 @@ This use case using transfer learning to classify whether an image is one of a c
 
 Note: Results shown in the book and github repo for the VGG16 transfer example are incorrect.  According to this [posting](https://github.com/keras-team/keras/issues/8792) there was a bug in releases before Keras 2.1.  This bug allowed weights in the pre-trained model to be updated when they would have been frozen.  The validation accuracy shown in this repo are correct.
 
-All notebooks were run on an AWS p2.xlarge instance using [Amazon Deep Learning (Ubuntu) AMI](https://aws.amazon.com/marketplace/pp/B077GCH38C).
+All notebooks were run on an AWS p2.xlarge instance, which provides an Nvidia K80 GPU. [Amazon Deep Learning (Ubuntu) AMI](https://aws.amazon.com/marketplace/pp/B077GCH38C) provided the deep learning software stack.
 
 |Notebook|Deep Learning Software Stack|
 |--------|-----------|
