@@ -14,7 +14,7 @@ Unless noted otherwise, all notebooks were run on an AWS p2.xlarge instance, whi
 |[vgg16_full_transfer_learning_multi-gpu.ipynb](https://github.com/jimthompson5802/transfer_learning/blob/master/cats_dogs/vgg16_full_transfer_learning_multi-gpu.ipynb)|Keras front-end api with Tensorflow backend.  Demonstrates multi-gpu training. Tested on AWS p2.8xlarge instance with 8 Nvidia K80 gpus.  __Achieved 0.9725 accuracy on out-of-sample test set__.  Performance impact of multi-gpu training is shown [here](https://github.com/jimthompson5802/transfer_learning/wiki). Encountered one issue: ModelChekcpoint call-back to save best weights did not work in muti-gpu mode. Disabled that call-back. More research needed to see how this could work with multiple gpus.  See issues [#9548](https://github.com/keras-team/keras/issues/9548) and [#8764](https://github.com/keras-team/keras/issues/8764).|
 
 
-**High-level Transfer Learning Steps**0.9724
+**High-level Transfer Learning Steps**
 
 * Extract pre-trained model structure (convolution and maxpool layers) and weights, excluding the original top-level classicfication fully connected layers.
 
