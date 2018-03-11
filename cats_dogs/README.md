@@ -35,10 +35,8 @@ All notebooks were run on an AWS p2.xlarge instance, which provides an Nvidia K8
 * Report accuracy of trained model on out-of-sample test data set.
 
 
-**Notes as of 2018-03-10**
-Attempted multi-gpu training using Keras multi_gpu_model() capability.  Tested on AWS p2.8xlarge instance with 8 Nvidia K80 gpus.  Encountered couple of problems:
+**Notes as of 2018-03-11**
+Attempted multi-gpu training using Keras multi_gpu_model() capability.  Tested on AWS p2.8xlarge instance with 8 Nvidia K80 gpus.  Encountered one problem:
 
-* Did not see significant reduction in time per epoch.  Original times about 165 seconds per epoch.  With 8 GPU per epoch time reduced to about 157 seconds.  One possibility is bottleneck when updating the model template housed on /cpu:0 device.  Tried various batch/sub-batch sizes.  Unable to keep the 8 gpus highly utlized.
-
-* ModelChekcpoint call-back to save best weights did not work in muti-gpu mode.  Disabled that call-back.  More research needed to see how this could work with multiple gpus.
+* ModelChekcpoint call-back to save best weights did not work in muti-gpu mode. Disabled that call-back. More research needed to see how this could work with multiple gpus.  See issues [#9548](https://github.com/keras-team/keras/issues/9548) and [#8764](https://github.com/keras-team/keras/issues/8764).
 
